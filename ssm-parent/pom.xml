@@ -7,7 +7,7 @@
     <artifactId>ssm-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <!--父级项目一般都是用pom来子项目依赖,一般软件的版本号/插件/都在这里进行定义,统一做管理-->
-    <!--install的时候parent也是要最新instal的,不然其他依赖就依赖不到这里了-->
+    <!--install的时候parent也是要最先install的,不然其他依赖就依赖不到这里了-->
     <packaging>pom</packaging>
     <name>ssm</name>
     <description>
